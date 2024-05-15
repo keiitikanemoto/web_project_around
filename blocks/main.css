@@ -1,0 +1,57 @@
+.main__perfil {
+  width: 880px;
+  margin: 0 200px 50px;
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+
+.main__perfil_photo {
+  height: 120px;
+  width: 120px;
+}
+
+.main__perfil_own {
+  width: 415px;
+  height: 77px;
+}
+
+.main__perfil_text {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #fff;
+  margin: 62px 18px 16px 30px;
+  
+}
+
+.main__perfil_subText {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #fff;
+  margin: 0px 0px 21px 30px;
+  grid-area: text;
+}
+
+.main__perfil_button_edit {
+  margin: 37px 0 59px 18px;
+  
+}
+.main__perfil_button_add {
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 1.375em;
+  text-align: center;
+  padding-top: 14px;
+  color: #fff;
+  border: solid 1px #fff;
+  margin: 35px 0 35px 165px;
+  
+}
