@@ -1,8 +1,11 @@
 .main__perfil {
   width: 880px;
+  height: 120px;
   margin: 0 200px 50px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 2fr 1fr 1fr ;
+  
  
   
 }
@@ -10,11 +13,22 @@
 .main__perfil_photo {
   height: 120px;
   width: 120px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-self: center;
+  
 }
 
 .main__perfil_own {
   width: 415px;
   height: 77px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main__perfil_text {
@@ -23,35 +37,51 @@
   font-size: 42px;
   line-height: 48px;
   color: #fff;
-  margin: 62px 18px 16px 30px;
+  margin: 0 0 0 30px;
+  
   
 }
 
 .main__perfil_subText {
   font-family: 'Inter';
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
   line-height: 21.78px;
   color: #fff;
-  margin: 0px 0px 21px 30px;
-  grid-area: text;
+  /*margin: 0px 0px 21px 30px;*/
+  margin: 0;
+  margin-left: 30px;
+
+  
+  
 }
 
 .main__perfil_button_edit {
-  margin: 37px 0 59px 18px;
+  margin-left: 18px;
+  margin-top: -11px;
   
 }
 .main__perfil_button_add {
   text-decoration: none;
   width: 150px;
   height: 50px;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  align-self: center;
+  margin-top: 10px;
+  
+}
+
+.main__perfil_button_add_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 100;
   font-size: 1.375em;
-  text-align: center;
-  padding-top: 14px;
   color: #fff;
   border: solid 1px #fff;
-  margin: 35px 0 35px 165px;
-  
+  margin: 0;
 }
