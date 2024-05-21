@@ -1,16 +1,13 @@
-.main__perfil {
+.perfil {
   width: 880px;
   height: 120px;
   margin: 0 200px 50px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 2fr 1fr 1fr ;
-  
- 
-  
 }
 
-.main__perfil_photo {
+.perfil_photo {
   height: 120px;
   width: 120px;
   grid-column-start: 1;
@@ -19,7 +16,7 @@
   
 }
 
-.main__perfil_own {
+.perfil_own {
   width: 415px;
   height: 77px;
   grid-column-start: 2;
@@ -31,7 +28,7 @@
   flex-wrap: wrap;
 }
 
-.main__perfil_text {
+.perfil_text {
   font-family: 'Inter';
   font-weight: 500;
   font-size: 42px;
@@ -42,13 +39,12 @@
   
 }
 
-.main__perfil_subText {
+.perfil_subText {
   font-family: 'Inter';
   font-weight: normal;
   font-size: 18px;
   line-height: 21.78px;
   color: #fff;
-  /*margin: 0px 0px 21px 30px;*/
   margin: 0;
   margin-left: 30px;
 
@@ -56,12 +52,12 @@
   
 }
 
-.main__perfil_button_edit {
+.perfil_button_edit {
   margin-left: 18px;
   margin-top: -11px;
   
 }
-.main__perfil_button_add {
+.perfil_button_add {
   text-decoration: none;
   width: 150px;
   height: 50px;
@@ -72,7 +68,7 @@
   
 }
 
-.main__perfil_button_add_text {
+.perfil_button_add_text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +76,7 @@
   height: 50px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 100;
-  font-size: 1.375em;
+  font-size: 40px;
   color: #fff;
   border: solid 1px #fff;
   margin: 0;
