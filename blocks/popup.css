@@ -31,7 +31,7 @@
   background-color: #fff;
   border-radius: 10px;
   top: calc(50% - 165px);
-  left: calc(50% - 215px)
+  left: calc(50% - 215px);
  
 }
 
@@ -76,7 +76,15 @@
   .popup__container {
      max-width: 282px;
      width: 100%;
+     top: calc(50% - 161px);
+     left: calc(50% - 154px);
    }
+
+   .popup__close_window-button{
+    position: absolute;
+    top: -50px;
+    right: 5px;
+  }
  
    .popup__container_title {
      font-size: 18px;
