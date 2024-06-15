@@ -29,12 +29,14 @@
 }
 
 .perfil_text {
+  max-width: 379px;
+  width: 100%;
   font-family: 'Inter';
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
   color: #fff;
-  margin: 0 0 0 30px;
+  margin: 0 18px 0 30px;
   
   
 }
@@ -53,14 +55,15 @@
 }
 
 .perfil_button_edit {
-  margin-left: 18px;
+  margin-left: 0;
   margin-top: -11px;
-  
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 .perfil_button_edit:hover {
   opacity: 60%;
-  cursor: pointer;
+  cursor: pointer
 }
 .perfil_button_add {
   text-decoration: none;
