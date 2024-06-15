@@ -72,7 +72,7 @@
   opacity: 60%;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:320px){
   .popup__container {
      max-width: 282px;
      width: 100%;
@@ -119,3 +119,4 @@
     background-color: #000;
     color: #fff;
    }
+  }
