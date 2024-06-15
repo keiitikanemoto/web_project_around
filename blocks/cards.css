@@ -12,10 +12,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px 17px;
-  line-height: 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 
   
@@ -26,10 +22,6 @@
   height: 361px;
   margin: 0;
   line-height: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-
 }
 
 .cards__grid_post_img {
@@ -50,10 +42,6 @@
   line-height: 29.05px;
   margin: 0;
   box-sizing: border-box;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  
 }
 
 .cards__grid_post_caption_text{
@@ -77,4 +65,21 @@
   width: 21px;
   height: 19px;
   
+}
+
+@media screen and (max-width: 320px) {
+  .cards {
+    width: 282px;
+    height: 2286px;
+    margin: 0 19px 0px 19px;
+    
+  }
+
+  .cards__grid {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
 }
