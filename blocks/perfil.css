@@ -73,7 +73,12 @@
   
 }
 
-.perfil__button-add_text {
+.perfil__button-add:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.perfil__button-add-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,7 +127,6 @@
     text-align: center;
     
     
-    
   }
 
   .perfil__subText {
@@ -144,7 +148,7 @@
     margin-top: 36px;
   }
 
-  .perfil__button-add_text {
+  .perfil__button-add-text {
     width: 282px;
     
     
