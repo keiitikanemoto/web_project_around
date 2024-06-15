@@ -16,7 +16,7 @@
 
   
 
-.cards__grid_post {
+.cards__grid-post {
   box-sizing: border-box;
   max-width: 282px;
   height: 361px;
@@ -24,13 +24,13 @@
   line-height: 0;
 }
 
-.cards__grid_post_img {
+.cards__grid-post_img {
   border-radius: 10px 10px 0 0;
   width: 282px;
   height: 282px;
 }
 
-.cards__grid_post_caption {
+.cards__grid-post_caption {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,7 @@
   box-sizing: border-box;
 }
 
-.cards__grid_post_caption_text{
+.cards__grid-post_caption_text{
   margin: 0;
   width: 246px;
   text-overflow: ellipsis;
@@ -52,12 +52,12 @@
   white-space: nowrap;
 }
 
-.cards__grid_post_caption_button {
+.cards__grid-post_caption_button {
   cursor: pointer;
   background-color: #fff;
 }
 
-.cards__grid_post_caption_button_like{
+.cards__grid-post_caption_button_like{
   padding: 0;
   margin: 0;
   cursor: pointer;

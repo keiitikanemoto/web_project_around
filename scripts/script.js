@@ -1,10 +1,10 @@
-const user = document.querySelector(".perfil_text");
-const aboutUser = document.querySelector(".perfil_subText");
+const user = document.querySelector(".perfil__text");
+const aboutUser = document.querySelector(".perfil__subText");
 let nameInput = document.querySelector(".popup__name");
 let jobInput = document.querySelector(".popup__about");
 const popupDisplay = document.querySelector(".popup")
 const closeButton = document.querySelector(".popup__close_window-button");
-const editButton = document.querySelector(".perfil_button_edit");
+const editButton = document.querySelector(".perfil__button-edit");
 let formElement = document.querySelector(".popup__container_form");
 
 

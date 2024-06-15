@@ -7,7 +7,7 @@
   grid-template-rows: 1fr 2fr 1fr 1fr;
 }
 
-.perfil_photo {
+.perfil__photo {
   height: 120px;
   width: 120px;
   grid-column-start: 1;
@@ -16,7 +16,7 @@
   
 }
 
-.perfil_own {
+.perfil__own {
   width: 415px;
   height: 77px;
   grid-column-start: 2;
@@ -28,7 +28,7 @@
   flex-wrap: wrap;
 }
 
-.perfil_text {
+.perfil__text {
   max-width: 379px;
   width: 100%;
   font-family: 'Inter';
@@ -41,7 +41,7 @@
   
 }
 
-.perfil_subText {
+.perfil__subText {
   font-family: 'Inter';
   font-weight: normal;
   font-size: 18px;
@@ -51,18 +51,18 @@
   margin-left: 30px;
 }
 
-.perfil_button_edit {
+.perfil__button-edit {
   margin-left: 0;
   margin-top: -11px;
   grid-column-start: 4;
   grid-column-end: 5;
 }
 
-.perfil_button_edit:hover {
+.perfil__button-edit:hover {
   opacity: 60%;
   cursor: pointer;
 }
-.perfil_button_add {
+.perfil__button-add {
   text-decoration: none;
   width: 150px;
   height: 50px;
@@ -73,7 +73,7 @@
   
 }
 
-.perfil_button_add_text {
+.perfil__button-add_text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,11 +98,11 @@
     align-items: center;
   }
 
-  .perfil_photo {
+  .perfil__photo {
     margin-bottom: 30px;
   }
 
-  .perfil_own {
+  .perfil__own {
     width: 282px;
     height: 50px;
     display: flex;
@@ -112,7 +112,7 @@
     
   }
 
-  .perfil_text {
+  .perfil__text {
     font-size: 22px;
     line-height: 27px;
     color: #fff;
@@ -125,7 +125,7 @@
     
   }
 
-  .perfil_subText {
+  .perfil__subText {
     font-size: 14px;
     line-height: 17px;
     color: #fff;
@@ -134,17 +134,17 @@
     text-align: center;
   }
 
-  .perfil_button_edit {
+  .perfil__button-edit {
     width: 18px;
     height: 18px;
   }
 
-  .perfil_button_add {
+  .perfil__button-add {
     width:282px;
     margin-top: 36px;
   }
 
-  .perfil_button_add_text {
+  .perfil__button-add_text {
     width: 282px;
     
     
