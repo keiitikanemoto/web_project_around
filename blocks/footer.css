@@ -1,0 +1,15 @@
+
+.footer {
+
+}
+
+.footer__description {
+  color: #545454;
+  margin: 0 200px 60px;
+}
+
+@media  screen and (max-width: 320px) {
+  .footer__description {
+    margin: 50px 19px 36px;
+  }
+}
