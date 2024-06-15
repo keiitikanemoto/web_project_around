@@ -1,0 +1,79 @@
+.popup {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  
+}
+
+
+.popup__close_window-button{
+  position: fixed;
+  top: 18%;
+  right: 30%;
+}
+
+.popup__close_window-button:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.popup__close_window-button-img {
+  width: 40px;
+  height: 40px;
+}
+
+.popup__container {
+  width: 430px;
+  height: 330px;
+  background-color: #fff;
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  border-radius: 10px 10px 10px 10px;
+ 
+}
+
+.popup__opened {
+  display: block;
+}
+
+.popup__container_title {
+  margin: 34px 64px 54px 36px;
+  font-size: 24px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
+}
+
+.popup__container_form {
+
+}
+
+.popup__container_form_label {
+
+}
+
+.popup__container_form_input {
+  margin: 0 36px 30px 36px;
+  width: 358px;
+  height: 28px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.popup__container_form_button {
+  font-size: 18px;
+  font-family: 'Inter', Arial, sans-serif;
+  width: 358px;
+  height: 50px;
+  margin: 0 36px 37px 36px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.popup__container_form_button:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
