@@ -1,20 +1,14 @@
 const user = document.querySelector(".perfil__text");
 const aboutUser = document.querySelector(".perfil__subText");
-let nameInput = document.querySelector(".popup__name");
-let jobInput = document.querySelector(".popup__about");
+const nameInput = document.querySelector(".popup__name");
+const jobInput = document.querySelector(".popup__about");
 const popupDisplay = document.querySelector(".popup")
 const closeButton = document.querySelector(".popup__close-window-button");
 const editButton = document.querySelector(".perfil__button-edit");
-let formElement = document.querySelector(".popup__container-form");
+const formElement = document.querySelector(".popup__container-form");
+const submit = document.querySelector(".popup__container-form-button");
 
 
-closeButton.addEventListener('click', event => {
-  console.log(event.target);
-})
-
-editButton.addEventListener('click', event => {
-  console.log(event.target);
-})
 
 function displayBlock(popupDisplay, popupOpenClass) {
   popupDisplay.classList.add(popupOpenClass);
@@ -30,7 +24,9 @@ function displayNone (popupDisplay, popupOpenClass) {
 
 closeButton.addEventListener("click", () => displayNone(popupDisplay, "popup__opened"));
 
-editButton.addEventListener("click", () => displayBlock(popupDisplay, "popup__opened"))
+editButton.addEventListener("click", () => displayBlock(popupDisplay, "popup__opened"));
+
+submit.addEventListener("click", () => displayNone(popupDisplay, "popup__opened"));
 
 function handleProfileFormSubmit (evt) {
   evt.preventDefault();
