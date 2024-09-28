@@ -10,6 +10,8 @@ const submit = document.querySelector(".popup__container-form-button");
 
 
 
+
+
 function displayBlock(popupDisplay, popupOpenClass) {
   popupDisplay.classList.add(popupOpenClass);
   if (popupOpenClass === "popup__opened") {
@@ -41,5 +43,22 @@ function handleProfileFormSubmit (evt) {
 }
 
 formElement.addEventListener('submit', handleProfileFormSubmit);
+
+/* New Place */
+const addNewPost = document.querySelector("#button-add-post");
+const addNewPostPopup = document.querySelector("#addNewPost");
+const closeNewButton = document.querySelector("#closeButton");
+
+function openAddNewPost () {
+  addNewPostPopup.classList.add("popup__opened");
+}
+
+function closeAddNewPost () {
+  addNewPostPopup.classList.remove("popup__opened");
+}
+
+
+addNewPost.addEventListener("click", openAddNewPost);
+closeNewButton.addEventListener("click", closeAddNewPost);
 
 
